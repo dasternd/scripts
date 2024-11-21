@@ -12,7 +12,7 @@ $HV_Path = "D:\Hyper-V\"
 # каталог с размещением эталонных дисков с ОС
 $HV_Path_Template = "D:\Hyper-V\Template\"
 
-# $localDomain = "ms-ware.ru"
+# $localDomain = "demo.daste.ru"
 $CSV_Path = "D:\Hyper-V\Template\PowerShell\DemoStand.csv"
 
 function createVM($VM) {
