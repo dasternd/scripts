@@ -28,6 +28,8 @@ function createVM($VM) {
         "WS19" { $VM_Disk_Parent = $HV_Path_Template + "WS19.vhdx" }    # w2k19 - Windows Server 2019 Standard
         "WS22" { $VM_Disk_Parent = $HV_Path_Template + "WS22.vhdx" }    # w2k22 - Windows Server 2022 Standard
         "WS22c" { $VM_Disk_Parent = $HV_Path_Template + "WS22c.vhdx" }  # w2k22 - Windows Server 2022 Standard Core
+        "WS25" { $VM_Disk_Parent = $HV_Path_Template + "WS25.vhdx" }    # w2k25 - Windows Server 2022 Standard
+        "WS25c" { $VM_Disk_Parent = $HV_Path_Template + "WS25c.vhdx" }  # w2k25 - Windows Server 2022 Standard Core
         "w7" { $VM_Disk_Parent = $HV_Path_Template + "w7.vhdx" }        # w7 - Windows 7 Pro
         "w7e" { $VM_Disk_Parent = $HV_Path_Template + "w7e.vhdx" }      # w7e - Windows 7 Enterprise
         "w10" { $VM_Disk_Parent = $HV_Path_Template + "w10.vhdx" }      # w10 - Windows 10 Pro
